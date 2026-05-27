@@ -1,0 +1,15 @@
+{
+  "name": "亚洲最新视频",
+  "short_name": "亚洲最新视频",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#07101f",
+  "theme_color": "#07101f",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

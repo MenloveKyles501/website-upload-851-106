@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>热播剧集分类浏览 - 热播剧集</title>
+    <meta name="description" content="热播电视剧栏目整理近期高热度剧集，覆盖多地区与多题材内容，更新及时。">
+    <meta name="keywords" content="热播电视剧,热播剧集,电视剧大全,剧集更新,分类浏览,高清剧集,在线浏览,分类浏览,电视剧分类">
+    <link rel="stylesheet" href="./assets/site.css">
+    <style>
+        .category-preview {
+            display: flex;
+            gap: 8px;
+            margin-top: 18px;
+        }
+        .category-preview img {
+            width: 74px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 12px;
+            background: #e2e8f0;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-container">
+            <div class="header-row">
+                <a class="logo" href="./index.html" aria-label="热播剧集">
+                    <span class="logo-mark">▶</span>
+                    <span>热播剧集</span>
+                </a>
+                <nav class="site-nav" aria-label="主导航">
+                <a href="./index.html">首页</a>
+                <a href="./categories.html">分类</a>
+                <a href="./search.html">搜索</a>
+                <a href="./rankings.html">排行榜</a>
+                <a href="./category-hot-series.html">热播精选</a>
+                <a href="./category-western-series.html">欧美剧集</a>
+                </nav>
+                <button class="menu-button" type="button" data-menu-button aria-expanded="false" aria-label="打开导航">☰</button>
+            </div>
+            <nav class="mobile-menu" data-mobile-menu aria-label="移动导航">
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+            <a href="./search.html">搜索</a>
+            <a href="./rankings.html">排行榜</a>
+            <a href="./category-hot-series.html">热播精选</a>
+            <a href="./category-western-series.html">欧美剧集</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="site-container">
+                <h1>热播剧集分类浏览</h1>
+                <p>热播电视剧栏目整理近期高热度剧集，覆盖多地区与多题材内容，更新及时。不同频道覆盖地区、年份与题材差异，方便快速进入片单。</p>
+                <form class="page-search" action="./categories.html" method="get">
+                    <input type="search" name="q" data-site-search placeholder="搜索分类、题材或地区" aria-label="搜索分类、题材或地区">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </section>
+        <section class="section">
+            <div class="site-container">
+                <div class="grid grid-3">
+                <a class="category-card" href="./category-hot-series.html" data-card data-title="热播精选" data-meta="精选近期高热度电视剧与电影内容，覆盖多种题材、地区和年代。">
+                    <h2>热播精选</h2>
+                    <p>精选近期高热度电视剧与电影内容，覆盖多种题材、地区和年代。</p>
+                    <div class="category-preview"><img src="./39.jpg" alt="街边故事" loading="lazy"><img src="./52.jpg" alt="鸿运当头" loading="lazy"><img src="./71.jpg" alt="乌冬面之国的金色毛球" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-chinese-drama.html" data-card data-title="国产剧场" data-meta="汇集华语地区剧集、电影与现实题材作品，适合连续浏览。">
+                    <h2>国产剧场</h2>
+                    <p>汇集华语地区剧集、电影与现实题材作品，适合连续浏览。</p>
+                    <div class="category-preview"><img src="./14.jpg" alt="呐喊的男人" loading="lazy"><img src="./21.jpg" alt="柯南上尉" loading="lazy"><img src="./32.jpg" alt="情迷佳人" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-asian-series.html" data-card data-title="亚洲新剧" data-meta="整理日本、韩国、泰国及亚洲其他地区的热门剧集与电影。">
+                    <h2>亚洲新剧</h2>
+                    <p>整理日本、韩国、泰国及亚洲其他地区的热门剧集与电影。</p>
+                    <div class="category-preview"><img src="./22.jpg" alt="超难搞叔叔" loading="lazy"><img src="./29.jpg" alt="混凝土乌托邦" loading="lazy"><img src="./35.jpg" alt="情人的归来" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-western-series.html" data-card data-title="欧美剧集" data-meta="收录欧美地区动作、科幻、剧情、悬疑等多类型内容。">
+                    <h2>欧美剧集</h2>
+                    <p>收录欧美地区动作、科幻、剧情、悬疑等多类型内容。</p>
+                    <div class="category-preview"><img src="./1.jpg" alt="不发光的太阳" loading="lazy"><img src="./3.jpg" alt="红颜往事" loading="lazy"><img src="./7.jpg" alt="刀语" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-mystery-sci-fi.html" data-card data-title="悬疑科幻" data-meta="面向悬疑推理、未来幻想、灾难危机和脑洞设定的片单。">
+                    <h2>悬疑科幻</h2>
+                    <p>面向悬疑推理、未来幻想、灾难危机和脑洞设定的片单。</p>
+                    <div class="category-preview"><img src="./9.jpg" alt="单身骑士" loading="lazy"><img src="./11.jpg" alt="莫莉快跑" loading="lazy"><img src="./13.jpg" alt="胡桃夹子和四个王国国语" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-romance-comedy.html" data-card data-title="爱情喜剧" data-meta="轻松浪漫与温暖喜剧内容集合，适合休闲观看。">
+                    <h2>爱情喜剧</h2>
+                    <p>轻松浪漫与温暖喜剧内容集合，适合休闲观看。</p>
+                    <div class="category-preview"><img src="./16.jpg" alt="阿基拉和拼字大赛" loading="lazy"><img src="./24.jpg" alt="相信奇迹" loading="lazy"><img src="./73.jpg" alt="刀剑笑新传之决战" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-action-adventure.html" data-card data-title="动作冒险" data-meta="覆盖动作、冒险、侠客、追逐、战争边缘等节奏强烈的作品。">
+                    <h2>动作冒险</h2>
+                    <p>覆盖动作、冒险、侠客、追逐、战争边缘等节奏强烈的作品。</p>
+                    <div class="category-preview"><img src="./5.jpg" alt="方子传" loading="lazy"><img src="./53.jpg" alt="死亡契约" loading="lazy"><img src="./54.jpg" alt="斯威湖之歌" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-history-war.html" data-card data-title="历史战争" data-meta="整理历史、年代、战争、传记及时代变迁相关影视内容。">
+                    <h2>历史战争</h2>
+                    <p>整理历史、年代、战争、传记及时代变迁相关影视内容。</p>
+                    <div class="category-preview"><img src="./26.jpg" alt="真爱诺言" loading="lazy"><img src="./37.jpg" alt="蛇蟒星际" loading="lazy"><img src="./44.jpg" alt="一曲相思情未了" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-family-drama.html" data-card data-title="家庭剧情" data-meta="以家庭、成长、人生选择和情感关系为核心的剧情内容。">
+                    <h2>家庭剧情</h2>
+                    <p>以家庭、成长、人生选择和情感关系为核心的剧情内容。</p>
+                    <div class="category-preview"><img src="./2.jpg" alt="一个卡拉布里的孩子" loading="lazy"><img src="./4.jpg" alt="苏洛对玛奇斯特" loading="lazy"><img src="./8.jpg" alt="死亡之屋2" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-animation-show.html" data-card data-title="动画综艺" data-meta="包含动画、综艺、纪录以及轻量娱乐题材内容。">
+                    <h2>动画综艺</h2>
+                    <p>包含动画、综艺、纪录以及轻量娱乐题材内容。</p>
+                    <div class="category-preview"><img src="./18.jpg" alt="德米特里·顿斯科伊的一生" loading="lazy"><img src="./27.jpg" alt="小子闯江湖" loading="lazy"><img src="./60.jpg" alt="油麻菜籽" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-crime-thriller.html" data-card data-title="犯罪惊悚" data-meta="聚合犯罪、惊悚、黑色故事和强冲突叙事作品。">
+                    <h2>犯罪惊悚</h2>
+                    <p>聚合犯罪、惊悚、黑色故事和强冲突叙事作品。</p>
+                    <div class="category-preview"><img src="./6.jpg" alt="妳是我眼中的苹果" loading="lazy"><img src="./10.jpg" alt="丫鬟大联盟" loading="lazy"><img src="./23.jpg" alt="超级兵王混农村2古墓传说" loading="lazy"></div>
+                </a>
+                <a class="category-card" href="./category-annual-picks.html" data-card data-title="年度片单" data-meta="按年度热度与题材丰富度整理的综合片单入口。">
+                    <h2>年度片单</h2>
+                    <p>按年度热度与题材丰富度整理的综合片单入口。</p>
+                    <div class="category-preview"><img src="./19.jpg" alt="欢乐一家亲第一季" loading="lazy"><img src="./48.jpg" alt="百妖传之九天玄玉" loading="lazy"><img src="./69.jpg" alt="惹火青春" loading="lazy"></div>
+                </a>
+                </div>
+                <div class="empty-filter" data-empty>没有找到匹配内容</div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="site-container">
+            <div class="footer-grid">
+                <div>
+                    <h2>热播剧集</h2>
+                    <p>热播电视剧栏目整理近期高热度剧集，覆盖多地区与多题材内容，更新及时。</p>
+                </div>
+                <div>
+                    <h3>频道入口</h3>
+                    <p><a href="./index.html">首页</a></p>
+                    <p><a href="./categories.html">分类浏览</a></p>
+                    <p><a href="./search.html">全站搜索</a></p>
+                    <p><a href="./rankings.html">热播排行</a></p>
+                </div>
+                <div>
+                    <h3>热门分类</h3>
+                <a href="./category-hot-series.html">热播精选</a>
+                <a href="./category-chinese-drama.html">国产剧场</a>
+                <a href="./category-asian-series.html">亚洲新剧</a>
+                <a href="./category-western-series.html">欧美剧集</a>
+                <a href="./category-mystery-sci-fi.html">悬疑科幻</a>
+                <a href="./category-romance-comedy.html">爱情喜剧</a>
+                </div>
+                <div>
+                    <h3>内容主题</h3>
+                    <p>热播电视剧、热播剧集、电影、动画、综艺、纪录内容持续整理，覆盖多地区与多题材。</p>
+                </div>
+            </div>
+            <div class="footer-bottom">© 2026 热播剧集 · 热播电视剧与剧集内容整理</div>
+        </div>
+    </footer>
+    <script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
